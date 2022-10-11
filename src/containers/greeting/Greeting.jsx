@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/images";
+// import landingPerson from "../../assets/images";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -72,7 +72,7 @@ export default function Greeting({prof}) {
              <img
                 alt="man sitting on table"
                 // src={require("../../assets/images/manOnTable.svg")}
-                src={"https://avatars.githubusercontent.com/u/73664886?s=400&u=b2b3a13e16fc7e6af8a5cdcfe2ab86bd9ffd6d56&v=4"}
+                // src={"https://avatars.githubusercontent.com/u/73664886?s=400&u=b2b3a13e16fc7e6af8a5cdcfe2ab86bd9ffd6d56&v=4"}
                 height = "300" width ="300" style={{borderRadius:"50%"}}
               ></img>
         </div>

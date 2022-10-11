@@ -3,7 +3,9 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+// import splashAnimation from "./assets/lottie/splashAnimation"; 
+const  splashAnimation = "ddd"
+// Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -139,7 +141,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Masai School",
-      logo: require("./assets/images/masai.png"),
+      // logo: require("./assets/images/masai.png"),
       subHeader: "Full Stack Web Development",
       duration: "April 2021 - May 2022",
       link : "https://www.masaischool.com/"
@@ -151,7 +153,7 @@ const educationInfo = {
     },
     {
       schoolName: "Rajkiya Engineering College Sonbhadra",
-      logo: require("./assets/images/rec.png"),
+      // logo: require("./assets/images/rec.png"),
       subHeader: "B.Tech in Computer Science & Engineering",
       duration: "July 2018 - June 2022",
       // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -190,7 +192,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      // companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -201,14 +203,14 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      // companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      // companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
@@ -230,7 +232,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -242,7 +244,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      // image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
@@ -270,7 +272,7 @@ const achievementSection = {
       subtitle:
         "This is a clone of “Udemy.com” in which We implemented some cool functionalities like search for courses, create courses as an instructor, add to cart, add to wishlist and purchased couses many more.",
         techStack : "CSS | MUI | Express.js | Node.js | React.js | Redux | MongoDB",
-      image: require("./assets/images/udemy2.png"),
+      // image: require("./assets/images/udemy2.png"),
       footerLink: [
         {
           name: "Demo Link",
@@ -291,7 +293,7 @@ const achievementSection = {
       subtitle:
         "This is a clone of “MeetUp.com” in which We implemented some cool functionalities like signUp/signIn, searching functionality, attend event functionality, create group and create group functionality and many more.",
         techStack:"React.js | Redux | JavaScript | HTML | CSS",
-      image: require("./assets/images/meetup.png"),
+      // image: require("./assets/images/meetup.png"),
       footerLink: [
         {
           name: "Demo Link",
@@ -312,7 +314,7 @@ const achievementSection = {
       title: "Redbus-Clone Project",
       subtitle: "This is a clone of “Redbus.com” in which We implemented some cool functionalities like signUp/signIn, search for buses, book ticket, bus hire, and many more.",
       techStack:"Advanced JavaScript | DOM manipulations | API | Json Server | HTML | CSS",
-      image: require("./assets/images/redbus.png"),
+      // image: require("./assets/images/redbus.png"),
       footerLink: [
         {
           name: "Demo Link",

@@ -43,12 +43,12 @@ export default function Contact() {
                   <br />
                 </>
               )}
-              <a
+              {/* <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
               >
                 {contactInfo.email_address}
-              </a>
+              </a> */}
               <br />
               <br />
               <SocialMedia />
@@ -60,7 +60,7 @@ export default function Contact() {
             ) : (
               <img
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                // src={require("../../assets/images/contactMailDark.svg")}
               ></img>
             )}
           </div>
