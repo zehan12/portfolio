@@ -1,0 +1,7 @@
+@import "../sassStyles/globalColor";
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: "0.1s";
+}
